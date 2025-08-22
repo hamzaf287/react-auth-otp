@@ -18,7 +18,10 @@ function SideBar() {
         aria-label="Sidebar"
       >
         <div className="h-full px-4 py-7 overflow-y-auto bg-gray-50 dark:bg-[#171A3B]">
-          <a href="/" className="flex items-center justify-center ps-2.5 mb-5">
+          <a
+            href="/login"
+            className="flex items-center justify-center ps-2.5 mb-5"
+          >
             <img
               src={QuitDarkImg}
               className="h-full me-3 sm:h-7 dark:hidden"
